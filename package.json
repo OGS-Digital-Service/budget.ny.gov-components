@@ -1,0 +1,26 @@
+{
+  "name": "budget.ny.gov-components",
+  "version": "1.0.0",
+  "description": "Repo for static components for budget.ny.gov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OGS-Digital-Service/budget.ny.gov-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OGS-Digital-Service/budget.ny.gov-components/issues"
+  },
+  "homepage": "https://github.com/OGS-Digital-Service/budget.ny.gov-components#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

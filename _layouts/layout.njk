@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="">
+    <meta property="twitter:url" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    {% include '_css-link.njk' %}
+    {% include '_js-link.njk' %}
+    <title>{{ title }}</title>
+  </head>
+  <body class="nysds-normalize">
+  <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only text-blue-700 underline">Skip to Main Content</a>
+    {% from '../_includes/_components.njk' import unav,nav,footer  %}
+    {% include 'unav-data.md' %}
+     {% include 'nav-data.md' %}
+    <main class="mx-8 md:mx-20" id="main-site-content-for-skiplink">
+    {{ content | safe }}
+    </main>
+    {% include 'footer-data.md' %}
+  </body>
+</html>
