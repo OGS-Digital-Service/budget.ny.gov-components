@@ -24,6 +24,19 @@ title: Employment at DOB
 
 })}}
 
+{{  highlight({
+    title: "Who We Are",
+    content:"An awesome and impactful statement about who we are as an agency! Think about something really engaging that demonstrates the values of the agency and the imapct of the work.",
+    link:"https://budget.ny.gov",
+    linktext:"This link is optional",
+    framecolor:"gray"
+})}}
+
+{{ textarea({
+    title:"Title of the text area",
+    contentfile:"dob-employment1.njk"
+})}}
+
 
 {{ bio({
     title:"This is the title area of the bio frame",
@@ -35,10 +48,7 @@ title: Employment at DOB
     imagealt:"office workers collaborating in a conference room"
 })}}
 
-{{ textarea({
-    title:"Title of the text area",
-    content:"Content of the text area"
-})}}
+
 
 {{ card({ 
     frametitle:"Row of Cards",
