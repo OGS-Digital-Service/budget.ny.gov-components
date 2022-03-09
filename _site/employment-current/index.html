@@ -16,7 +16,11 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
-   
+    <style>
+    .search {
+      max-height: unset !important;
+    }
+    </style>
     <link href="/css/nysds-utilities.css" rel="stylesheet">
 <link href="/css/tailwind.css" rel="stylesheet">
 <link href="/css/fonts.css" rel="stylesheet">
@@ -129,27 +133,29 @@
                     </header>
                 </nav>
     <main class="nysds-normalize mx-8 md:mx-20 bg-white" id="main-site-content-for-skiplink">
-     <div id="search_container">
-                        <form
-                            method="get"
-                            action="/search?q=&amp;btnG.x=65&amp;btnG.y=16&amp;btnG=Search+DOB&amp;site=allsites&amp;client=allsites&amp;proxystylesheet=allsites&amp;output=xml_no_dtd"
-                            class="search"
-                            title="DOB Site Search"
-                            role="search"
-                            aria-label="Sitewide search"
-                        >
-                            <label for="searchDOB">Search DOB</label>
-                            <span class="searchInput">
-                                <input type="text" name="q" size="16" maxlength="255" value="" id="searchDOB" title="Input text here and hit &ldquo;Return&rdquo;" tabindex="0" accesskey="S" placeholder="Search DOB" />
-                                <input name="btnG" type="submit" title="Submit DOB Search" tabindex="0" class="search_button" />
-                            </span>
-                            <input type="hidden" name="site" value="allsites" title="hidden site" tabindex="0" />
-                            <input type="hidden" name="client" value="allsites" title="hidden client" tabindex="0" />
-                            <input type="hidden" name="proxystylesheet" value="allsites" title="hidden proxy stylesheet" tabindex="0" />
-                            <input type="hidden" name="output" value="xml_no_dtd" title="hidden output" tabindex="0" />
-                            <input type="hidden" name="oe" value="latin1" title="hidden oe" tabindex="0" />
-                        </form>
-                    </div>
+    <div class="-mx-8 md:-mx-20 mb-2">
+      <div id="search_container">
+        <form
+            method="get"
+            action="/search?q=&amp;btnG.x=65&amp;btnG.y=16&amp;btnG=Search+DOB&amp;site=allsites&amp;client=allsites&amp;proxystylesheet=allsites&amp;output=xml_no_dtd"
+            class="search"
+            title="DOB Site Search"
+            role="search"
+            aria-label="Sitewide search"
+        >
+            <label for="searchDOB">Search DOB</label>
+            <span class="searchInput">
+                <input type="text" name="q" size="16" maxlength="255" value="" id="searchDOB" title="Input text here and hit &ldquo;Return&rdquo;" tabindex="0" accesskey="S" placeholder="Search DOB" />
+                <input name="btnG" type="submit" title="Submit DOB Search" tabindex="0" class="search_button" />
+            </span>
+            <input type="hidden" name="site" value="allsites" title="hidden site" tabindex="0" />
+            <input type="hidden" name="client" value="allsites" title="hidden client" tabindex="0" />
+            <input type="hidden" name="proxystylesheet" value="allsites" title="hidden proxy stylesheet" tabindex="0" />
+            <input type="hidden" name="output" value="xml_no_dtd" title="hidden output" tabindex="0" />
+            <input type="hidden" name="oe" value="latin1" title="hidden oe" tabindex="0" />
+        </form>
+      </div>
+    </div>
     
     <p><a href="#top" title="skip navigation" class="skipnav">skip navigation</a>
 <a href="#gotocontent" title="skip breadcrumbs" class="skipnav">skip to main content</a>

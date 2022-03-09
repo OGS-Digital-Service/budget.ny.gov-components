@@ -5,19 +5,19 @@ title: Employment at DOB
 {% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight  %}
                    
 {{ hero({ 
-    title:"This is the hero title",
+    title:"Employment at DOB",
     date: "February 16, 2022",
-    image:"Hochul_WebsiteHero.jpg",
-    description:"A paragraph of text up to whatever the truncation limit is. This is a longer one for demonstrating what it will look like and how to position it.",
+    image:"ilovenycapitol.jpg",
+    description:"The Divison of the Budget is a vibrant, challenging, and creative place to work. Come be part of the team that keeps Government moving forward.",
     buttons: [
         {
-            text:"First Button",
-            link:"google.com",
-            arialabel:""
+            text:"Open Positions",
+            link:"https://statejobs.ny.gov/public/vacancyTable.cfm?searchResults=Yes&Keywords=&title=&JurisClassID=&AgID=3&minDate=&maxDate=&employmentType=&grade=&SalMin=",
+            arialabel:"Go to state jobs to see our open jobs"
         },
         {
-            text:"Second Button",
-            link:"apple.com",
+            text:"Become a Budget Specialist",
+            link:"#",
             arialabel:""
         }
     ]
