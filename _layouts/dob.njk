@@ -16,9 +16,13 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
+    <!-- these are highest level css overrides for this site only -->
     <style>
     .search {
       max-height: unset !important;
+    }
+    html {
+      background-color: #fff !important;
     }
     </style>
     {% include '_css-link.njk' %}
@@ -29,7 +33,7 @@
   <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only text-blue-700 underline">Skip to Main Content</a>
     {% from '../_includes/_components.njk' import unav,nav,footer  %}
      {% include 'nav-data.md' %}
-    <main class="nysds-normalize mx-8 md:mx-20 bg-white" id="main-site-content-for-skiplink">
+    <main class="nysds-normalize mx-8 md:mx-20" id="main-site-content-for-skiplink">
     <div class="-mx-8 md:-mx-20 mb-2">
       <div id="search_container">
         <form
