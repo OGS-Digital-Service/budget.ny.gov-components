@@ -32,98 +32,96 @@ title: Employment at DOB
     framecolor:"gray"
 })}}
 
-{{ textarea({
-    title:"Title of the text area",
-    contentfile:"dob-employment1.njk"
-})}}
+<section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
+<!-- frame heading -->
+<h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">What we do</h2>
+<p> A placeholder for a paragraph of text! </p>
+<section class="flex flex-col justify-center text-center my-8">
+<h3 class="nysds-text-32 font-bold text-admin-first my-4"> Image Placeholder</h3>
+<img loading="lazy" class="m-auto w-full md:w-2/3 lg:w-1/2" src="/img/plaza-lights2.jpg" alt="put some descriptive alt text here" />
+<p class="my-2 italic"> The Plaza lit up with fancy new lights </p>
+</section>
+<p> A placeholder for another paragraph of text! </p>
+</section>
 
-
-{{ bio({
-    title:"This is the title area of the bio frame",
-    content:"A short paragraph of content that probably shouldn't exceed two really good and direct sentences. We're highlighting something, not telling the whole story here.",
-    link:"https://budget.ny.gov",
-    linktext:"See the Jobs",
-    arialabel:"Go to the New York State Division of the Budget Employment page to look at career opportunities",
-    image:"/img/office.jpg",
-    imagealt:"office workers collaborating in a conference room"
-})}}
-
-
-
-{{ card({ 
-    frametitle:"Row of Cards",
-    cards: [
-        {
-           title:"First Card",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
-           link:"https://budget.ny.gov",
-           arialabel:"",
-           image:"/img/office.jpg",
-           imagealt:"Office workers in a conference room having a collaborative working session"
-        },
-        {
-           title:"Second Card",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
-           link:"https://budget.ny.gov",
-           arialabel:"",
-           image:"/img/office.jpg",
-           imagealt:"Office workers in a conference room having a collaborative working session"
-        },
-        {
-           title:"Third Card",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page. This one is longer to show that the cards stretch to the height of the tallest card.",
-           link:"https://budget.ny.gov",
-           arialabel:"",
-           image:"/img/office.jpg",
-           imagealt:"Office workers in a conference room having a collaborative working session"
-        }
-    ]
-})}}
 
 {{  highlight({
-    title: "Highlight Frame in Gray",
-    content:"The vendors shown on this list have been approved by the Vendor Responsibility Group of the OGS Design & Construction Group (D&C) within the past year. The list was developed as a reference tool for government agencies, vendors and other organizations that need the assistance of construction services from qualified vendors, particularly in case of a disaster or other emergency declaration in New York State.",
+    title: "How We Hire",
+    content:"How we hire placeholder text",
     link:"https://budget.ny.gov",
-    linktext:"Download the List",
-    framecolor:"gray"
-})}}
-
-{{  highlight({
-    title: "Highlight Frame in Secondary",
-    content:"The vendors shown on this list have been approved by the Vendor Responsibility Group of the OGS Design & Construction Group (D&C) within the past year. The list was developed as a reference tool for government agencies, vendors and other organizations that need the assistance of construction services from qualified vendors, particularly in case of a disaster or other emergency declaration in New York State.",
-    link:"https://budget.ny.gov",
-    linktext:"Download the List",
+    linktext:"This doesn't have to be here",
     framecolor:"orange"
 })}}
 
 
 
+
+
+{{ card({ 
+    frametitle:"Discover Your Next Career Opportunity",
+    cards: [
+        {
+           title:"Current Openings",
+           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           link:"https://budget.ny.gov",
+           arialabel:"",
+           image:"/img/Business_Masks2.jpg",
+           imagealt:"Office workers in a conference room having a collaborative working session"
+        },
+        {
+           title:"Internships",
+           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           link:"https://budget.ny.gov",
+           arialabel:"",
+           image:"/img/plaza-lights2.jpg",
+           imagealt:"Office workers in a conference room having a collaborative working session"
+        },
+        {
+           title:"Apply Now",
+           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           link:"https://budget.ny.gov",
+           arialabel:"",
+           image:"/img/Business_Masks2.jpg",
+           imagealt:"Office workers in a conference room having a collaborative working session"
+        }
+    ]
+})}}
+
+
+{{  highlight({
+    title: "DOB is an Equal Opportunity Employer",
+    content:"EEO Statement Placeholder",
+    link:"https://budget.ny.gov",
+    linktext:"Read our Equal Employment Opportunity Statement",
+    framecolor:"orange"
+})}}
+
+{{ bio({
+    title:"What is it like to work for DOB?",
+    content:"Working for Budget is like winning the superbowl and getting knighted at the same time. I feel amazing everyday!",
+    image:"/img/Business_Masks2.jpg",
+    imagealt:"office workers collaborating in a conference room"
+})}}
+
+
 {{ categorytiles({ 
-    title:"Category Tiles",
+    title:"Learn More",
     items: [
         {
-            text:"first tile",
+            text:"The Empire State Plaza",
+            link:"https://empirestateplaza.ny.gov"
+        },
+        {
+            text:"Budget Specialists",
             link:"https://budget.ny.gov"
         },
         {
-            text:"second tile",
+            text:"Working for NYS",
             link:"https://budget.ny.gov"
         },
         {
-            text:"third tile",
-            link:"https://budget.ny.gov"
-        },
-        {
-            text:"fourth tile",
-            link:"https://budget.ny.gov"
-        },
-        {
-            text:"another tile with a long title that you might use",
-            link:"https://budget.ny.gov"
-        },
-        {
-            text:"one that has two lines of text",
-            link:"https://budget.ny.gov"
+            text:"Albany!",
+            link:"https://www.albany.org/"
         }
     ]
 })}}
