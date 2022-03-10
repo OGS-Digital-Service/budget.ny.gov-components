@@ -2,7 +2,7 @@
 layout: dob.njk
 title: Employment at DOB
 ---
-{% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight  %}
+{% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe  %}
                    
 {{ hero({ 
     title:"Employment at DOB",
@@ -43,6 +43,39 @@ title: Employment at DOB
 </section>
 <p> A placeholder for another paragraph of text! </p>
 </section>
+
+{{ iconframe({
+    title:"An Icon Frame",
+    color:"",
+    iconcards: [
+        {
+            icon:"nygov-logo.png",
+            iconalt:"an outline of the state of new york",
+            title: "Icon Title",
+            content:"One really good decriptive sentence that shouldn't be terribly long. "
+        },
+        {
+            icon:"nygov-logo.png",
+            iconalt:"an outline of the state of new york",
+            title: "Icon Title",
+            content:"One really good decriptive sentence that shouldn't be terribly long. "
+        },
+        {
+            icon:"nygov-logo.png",
+            iconalt:"an outline of the state of new york",
+            title: "Icon Title",
+            content:"One really good decriptive sentence that shouldn't be terribly long. "
+        },
+        {
+            icon:"nygov-logo.png",
+            iconalt:"an outline of the state of new york",
+            title: "Icon Title",
+            content:"One really good decriptive sentence that shouldn't be terribly long. "
+        }
+
+    ]
+})
+}}
 
 
 {{  highlight({
