@@ -5,18 +5,18 @@ title: Employment at DOB
 {% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe  %}
                    
 {{ hero({ 
-    title:"Employment at DOB",
+    title:"Careers at DOB",
     date: "February 16, 2022",
     image:"ilovenycapitol.jpg",
-    description:"The Divison of the Budget is a vibrant, challenging, and creative place to work. Come be part of the team that keeps Government moving forward.",
+    description:"Supporting all areas of public policy, work at the Division of the Budget is high-impact public service.",
     buttons: [
         {
-            text:"Open Positions",
+            text:"View Openings",
             link:"https://statejobs.ny.gov/public/vacancyTable.cfm?searchResults=Yes&Keywords=&title=&JurisClassID=&AgID=3&minDate=&maxDate=&employmentType=&grade=&SalMin=",
             arialabel:"Go to state jobs to see our open jobs"
         },
         {
-            text:"Become a Budget Specialist",
+            text:"Apply Now",
             link:"#",
             arialabel:""
         }
@@ -24,53 +24,52 @@ title: Employment at DOB
 
 })}}
 
-{{  highlight({
-    title: "Who We Are",
-    content:"An awesome and impactful statement about who we are as an agency! Think about something really engaging that demonstrates the values of the agency and the imapct of the work.",
-    link:"https://budget.ny.gov",
-    linktext:"This link is optional",
-    framecolor:"gray"
-})}}
-
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
-<h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">What we do</h2>
-<p> A placeholder for a paragraph of text! </p>
-<section class="flex flex-col justify-center text-center my-8">
-<h3 class="nysds-text-32 font-bold text-admin-first my-4"> Image Placeholder</h3>
-<img loading="lazy" class="m-auto w-full md:w-2/3 lg:w-1/2" src="/img/plaza-lights2.jpg" alt="put some descriptive alt text here" />
-<p class="my-2 italic"> The Plaza lit up with fancy new lights </p>
-</section>
-<p> A placeholder for another paragraph of text! </p>
+<h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
+<p> For more than 80 years, the New York State Division of the Budget (DOB) has been the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. DOB is synonymous with challenge, self-empowerment, collaboration, and high-impact public service.</p>
+<p> Our work impacts all areas of public policy, from education to transportation and energy to health. As part of the DOB team, staff engage in: </p>
+
+- Skilled policy and program analysis
+- Complex fiscal management
+- Performance and contract management
+- Revenue and economic forecasting
+- Intergovernmental relations
+
+<p> To fulfill our mission and serve all New Yorkers, DOB employs budget and policy analysts, auditors, economists, contract specialists, human resources and administrative professionals, student interns, and more. </p>
+<p>
+If you’re looking for a place to start your career in government finance or public policy, or are looking for a role where you can realize your potential, apply to join our team!
+</p>
 </section>
 
 {{ iconframe({
-    title:"An Icon Frame",
+    title:"What We Do",
     color:"",
+    description:"DOB serves on the front lines of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers, including:",
     iconcards: [
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Icon Title",
-            content:"One really good decriptive sentence that shouldn't be terribly long. "
+            title: "Optimize",
+            content:"Analyzing the efficiency and effectiveness of programs and operations. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Icon Title",
-            content:"One really good decriptive sentence that shouldn't be terribly long. "
+            title: "Guidance",
+            content:"Developing budget and policy recommendations. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Icon Title",
-            content:"One really good decriptive sentence that shouldn't be terribly long. "
+            title: "Fiscal Analysis",
+            content:"Analyzing fiscal trends and impacts. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Icon Title",
-            content:"One really good decriptive sentence that shouldn't be terribly long. "
+            title: "Impact",
+            content:"Evaluating proposed legislation and negotiating with legislative staff. "
         }
 
     ]
@@ -80,9 +79,9 @@ title: Employment at DOB
 
 {{  highlight({
     title: "How We Hire",
-    content:"How we hire placeholder text",
+    content:"At DOB, we’re always looking for great candidates to add to our team, with or without a civil service exam. Don’t see an opening for the role you’re looking for? Submit an application anyway, and we’ll reach out if there’s an opportunity we think would be a good fit for you!",
     link:"https://budget.ny.gov",
-    linktext:"This doesn't have to be here",
+    linktext:"Submit your application",
     framecolor:"orange"
 })}}
 
@@ -110,7 +109,7 @@ title: Employment at DOB
            imagealt:"Office workers in a conference room having a collaborative working session"
         },
         {
-           title:"Apply Now",
+           title:"Submit an Application",
            content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
            link:"https://budget.ny.gov",
            arialabel:"",
@@ -122,8 +121,8 @@ title: Employment at DOB
 
 
 {{  highlight({
-    title: "DOB is an Equal Opportunity Employer",
-    content:"EEO Statement Placeholder",
+    title: "Our Workplace is for Everyone",
+    content:"DOB is an Equal Employment Opportunity employer. Candidates with diverse backgrounds, veterans, and people with disabilities are encouraged to apply. State law prohibits discrimination based on race, color, creed, sex, national origin, age, mental or physical disability, marital status, military or veteran status, sexual orientation, predisposing genetic characteristics, gender identity, domestic violence victim status, and prior arrest, youthful offender adjudications, sealed records, and/or previous conviction records",
     link:"https://budget.ny.gov",
     linktext:"Read our Equal Employment Opportunity Statement",
     framecolor:"orange"
@@ -131,30 +130,31 @@ title: Employment at DOB
 
 {{ bio({
     title:"What is it like to work for DOB?",
-    content:"Working for Budget is like winning the superbowl and getting knighted at the same time. I feel amazing everyday!",
-    image:"/img/Business_Masks2.jpg",
-    imagealt:"office workers collaborating in a conference room"
+    content:'"There are many intelligent Examiners here, but no will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill… there’s really a role for everybody. "',
+    attribute:"Jacob, Budget Examiner",
+    image:"/img/bio-image.jpg",
+    imagealt:"professional headshot of male employee wearing a suit"
 })}}
 
 
 {{ categorytiles({ 
-    title:"Learn More",
+    title:"Learn More About",
     items: [
         {
-            text:"The Empire State Plaza",
-            link:"https://empirestateplaza.ny.gov"
+            text:"Salaries and Benefits",
+            link:"#"
         },
         {
-            text:"Budget Specialists",
-            link:"https://budget.ny.gov"
+            text:"Life in the Capital Region",
+            link:"#"
         },
         {
-            text:"Working for NYS",
-            link:"https://budget.ny.gov"
+            text:"Career Paths",
+            link:"#"
         },
         {
-            text:"Albany!",
-            link:"https://www.albany.org/"
+            text:"Professional Development",
+            link:"#"
         }
     ]
 })}}
