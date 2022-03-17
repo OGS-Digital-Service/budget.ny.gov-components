@@ -27,9 +27,7 @@ title: Employment at DOB
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p> The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, from education to transportation and energy to health.</p>
-<p>
-If you’re looking for a place to start your career in government finance or public policy, or are looking for a role where you can realize your potential, apply to join our team!
+<p> The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, from education to transportation and energy to health. If you’re looking for a place to start your career in government finance or public policy, or are looking for a role where you can realize your potential, apply to join our team!
 </p>
 </section>
 
