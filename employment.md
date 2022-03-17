@@ -27,16 +27,7 @@ title: Employment at DOB
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p> For more than 80 years, the New York State Division of the Budget (DOB) has been the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. DOB is synonymous with challenge, self-empowerment, collaboration, and high-impact public service.</p>
-<p> Our work impacts all areas of public policy, from education to transportation and energy to health. As part of the DOB team, staff engage in: </p>
-
-- Skilled policy and program analysis
-- Complex fiscal management
-- Performance and contract management
-- Revenue and economic forecasting
-- Intergovernmental relations
-
-<p> To fulfill our mission and serve all New Yorkers, DOB employs budget and policy analysts, auditors, economists, contract specialists, human resources and administrative professionals, student interns, and more. </p>
+<p> The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, from education to transportation and energy to health.</p>
 <p>
 If you’re looking for a place to start your career in government finance or public policy, or are looking for a role where you can realize your potential, apply to join our team!
 </p>
@@ -50,26 +41,26 @@ If you’re looking for a place to start your career in government finance or pu
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Optimize",
-            content:"Analyzing the efficiency and effectiveness of programs and operations. "
+            title: "Skilled Policy and Program Analysis",
+            content:"Analyzing the efficiency and effectiveness of programs and operations and proposed legislation. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Guidance",
+            title: "Complex Fiscal Management",
             content:"Developing budget and policy recommendations. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Fiscal Analysis",
+            title: "Revenue and Economic Forecasting",
             content:"Analyzing fiscal trends and impacts. "
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Impact",
-            content:"Evaluating proposed legislation and negotiating with legislative staff. "
+            title: "Intergovernmental Relations",
+            content:"Interacting with local governments, state agencies, and negotiating with legislative staff. "
         }
 
     ]
@@ -94,26 +85,26 @@ If you’re looking for a place to start your career in government finance or pu
     cards: [
         {
            title:"Current Openings",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           content:"DOB employs budget and policy analysts, auditors, economists, contract specialists, human resources and administrative professionals, student interns, and more.",
            link:"https://budget.ny.gov",
            arialabel:"",
-           image:"/img/Business_Masks2.jpg",
+           image:"/img/Meeting.jpg",
            imagealt:"Office workers in a conference room having a collaborative working session"
         },
         {
            title:"Internships",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           content:"Gain valuable experience in public policy and government finance through an internship at DOB.",
            link:"https://budget.ny.gov",
            arialabel:"",
-           image:"/img/plaza-lights2.jpg",
+           image:"/img/Laptop.jpg",
            imagealt:"Office workers in a conference room having a collaborative working session"
         },
         {
            title:"Submit an Application",
-           content:"A sentence or two of text that gives the general idea of what this link goes to or the topic of the page.",
+           content:"Are you ready for your next great career opportunity? Submit an application today!",
            link:"https://budget.ny.gov",
            arialabel:"",
-           image:"/img/Business_Masks2.jpg",
+           image:"/img/Handshake.jpg",
            imagealt:"Office workers in a conference room having a collaborative working session"
         }
     ]
