@@ -1,6 +1,17 @@
 ---
 layout: dob.njk
 title: Employment at DOB
+url: budget.ny.gov/employment
+domain: budget.ny.gov
+facebook:
+    title:  Employment at DOB
+    description: Supporting all areas of public policy, work at the Division of the Budget is high-impact public service
+    image: ilovenycapitol.jpg
+twitter:
+    title: Employment at DOB
+    description: Supporting all areas of public policy, work at the Division of the Budget is high-impact public service
+    image: ilovenycapitol.jpg
+---
 ---
 {% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe  %}
                    
