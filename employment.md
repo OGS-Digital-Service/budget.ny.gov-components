@@ -27,8 +27,8 @@ title: Employment at DOB
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p> The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, from education to transportation and energy to health. If you’re looking for a place to start your career in government finance or public policy, or are looking for a role where you can realize your potential, apply to join our team!
-</p>
+<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, offering an array of opportunities, including those that develop in-depth policy knowledge; coordinative roles such as for the management of the financial plan or review of legislation; and enterprise oversight such as in performance management and procurement.</p>  
+<p>If you’re looking for a place to start your career in government finance or public policy, interested in working with and learning from talented and dedicated analysts, or excited about the challenges of working in a fast-paced environment, apply to join our team!</p>
 </section>
 
 {{ iconframe({
@@ -68,7 +68,7 @@ title: Employment at DOB
 
 {{  highlight({
     title: "How We Hire",
-    content:"At DOB, we’re always looking for great candidates to add to our team, with or without a civil service exam. Don’t see an opening for the role you’re looking for? Submit an application anyway, and we’ll reach out if there’s an opportunity we think would be a good fit for you!",
+    content:"At DOB, we’re always looking for great candidates to add to our team and a civil service exam is generally not required to be hired. Don’t see an opening for the role you’re looking for? Submit an application anyway, and we’ll reach out if there’s an opportunity we think would be a good fit for you!",
     link:"https://budget.ny.gov",
     linktext:"Submit your application",
     framecolor:"orange"
