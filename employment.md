@@ -13,7 +13,7 @@ twitter:
     image: ilovenycapitol.jpg
 ---
 ---
-{% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe  %}
+{% from './_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe,quicklinks  %}
                    
 {{ hero({ 
     title:"Careers at DOB",
@@ -38,52 +38,45 @@ twitter:
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our work impacts all areas of public policy, offering an array of opportunities, including those that develop in-depth policy knowledge; coordinative roles such as for the management of the financial plan or review of legislation; and enterprise oversight such as in performance management and procurement.</p>  
-<p>If you’re looking for a place to start your career in government finance or public policy, interested in working with and learning from talented and dedicated analysts, or excited about the challenges of working in a fast-paced environment, apply to join our team!</p>
+<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our staff work on the forefront of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers.</p>  
+<p>If you are looking for a place to start your career in government finance or public policy, are interested in collaborating and learning from talented and dedicated analysts or are excited about the challenge of addressing the continually evolving issues that face State government, apply to join our team!</p>
 </section>
 
 {{ iconframe({
     title:"What We Do",
     color:"",
-    description:"DOB serves on the front lines of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers, including:",
+    description:"Our work impacts all areas of public policy and provides opportunities for employees to develop in-depth policy knowledge and make meaningful contributions as they engage in:",
     iconcards: [
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
             title: "Skilled Policy and Program Analysis",
-            content:"Analyzing the efficiency and effectiveness of programs and operations and proposed legislation. "
+            content:"Analyzing government programs, operations, and legislative proposals for fiscal implications."
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Complex Fiscal Management",
-            content:"Developing budget and policy recommendations. "
+            title: "Complex Budget Coordination",
+            content:"Creating, proposing and negotiating budget and policy, while managing the
+State’s multi-year financial plan."
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
             title: "Revenue and Economic Forecasting",
-            content:"Analyzing fiscal trends and impacts. "
+            content:"Interpreting fiscal trends and impacts to promote long-term financial stability."
         },
         {
             icon:"nygov-logo.png",
             iconalt:"an outline of the state of new york",
-            title: "Intergovernmental Relations",
-            content:"Interacting with local governments, state agencies, and negotiating with legislative staff. "
+            title: "High Performance Government Management",
+            content:"Providing enterprise guidance, overseeing government performance, and managing initiatives.  "
         }
 
     ]
 })
 }}
 
-
-{{  highlight({
-    title: "How We Hire",
-    content:"At DOB, we’re always looking for great candidates to add to our team and a civil service exam is generally not required to be hired. Don’t see an opening for the role you’re looking for? Submit an application anyway, and we’ll reach out if there’s an opportunity we think would be a good fit for you!",
-    link:"https://budget.ny.gov",
-    linktext:"Submit your application",
-    framecolor:"orange"
-})}}
 
 
 
@@ -120,13 +113,13 @@ twitter:
 })}}
 
 
-{{  highlight({
-    title: "Our Workplace is for Everyone",
-    content:"DOB is an Equal Employment Opportunity employer. Candidates with diverse backgrounds, veterans, and people with disabilities are encouraged to apply. State law prohibits discrimination based on race, color, creed, sex, national origin, age, mental or physical disability, marital status, military or veteran status, sexual orientation, predisposing genetic characteristics, gender identity, domestic violence victim status, and prior arrest, youthful offender adjudications, sealed records, and/or previous conviction records",
-    link:"https://budget.ny.gov",
-    linktext:"Read our Equal Employment Opportunity Statement",
-    framecolor:"orange"
-})}}
+<section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
+<!-- frame heading -->
+<h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Our Workplace is for Everyone</h2>
+<p>DOB is an Equal Employment Opportunity employer. Candidates with diverse backgrounds, veterans, and people with disabilities are encouraged to apply. State law prohibits discrimination based on race, color, creed, sex, national origin, age, mental or physical disability, marital status, military or veteran status, sexual orientation, predisposing genetic characteristics, gender identity, domestic violence victim status, and prior arrest, youthful offender adjudications, sealed records, and/or previous conviction records.</p>
+<a class="nysds-exclude uppercase bg-admin-first visited:!text-white m-auto !no-underline hover:bg-black hover:!underline focus:bg-black focus:!underline my-4 p-4 rounded-xl !text-white text-center w-2/3 md:w-1/3 lg:w-1/4" href="https://budget.ny.gov">Read our Equal Employment Opportunity Statement</a>  
+</section>
+
 
 {{ bio({
     title:"What is it like to work for DOB?",
@@ -137,24 +130,34 @@ twitter:
 })}}
 
 
-{{ categorytiles({ 
-    title:"Learn More About",
-    items: [
+{{ quicklinks({ 
+    frametitle:"Quick Links",
+    colleft: [
         {
-            text:"Salaries and Benefits",
-            link:"#"
+            title:"Salaries and Benefits",
+            link:"https://budget.ny.gov",
+            content:"",
+            image:"/img/Business_Masks2.jpg"
         },
         {
-            text:"Life in the Capital Region",
-            link:"#"
+            title:"Life in the Capital Region",
+            link:"https://budget.ny.gov",
+            content:"",
+            image:"/img/Business_Masks2.jpg"
+        }
+    ],
+    colright: [
+        {
+            title:"Career Paths",
+            link:"https://budget.ny.gov",
+            content:"",
+            image:"/img/Business_Masks2.jpg"
         },
         {
-            text:"Career Paths",
-            link:"#"
-        },
-        {
-            text:"Learning and Leadership Development",
-            link:"#"
+            title:"Learning and Leadership Development",
+            link:"https://budget.ny.gov",
+            content:"",
+            image:"/img/Business_Masks2.jpg"
         }
     ]
 })}}
