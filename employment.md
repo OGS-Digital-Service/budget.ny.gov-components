@@ -38,8 +38,7 @@ twitter:
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our staff work on the forefront of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers.</p>  
-<p>If you are looking for a place to start your career in government finance or public policy, are interested in collaborating and learning from talented and dedicated analysts or are excited about the challenge of addressing the continually evolving issues that face State government, apply to join our team!</p>
+<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our staff work on the forefront of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers. If you are looking for a place to start your career in government finance or public policy, are interested in collaborating and learning from talented and dedicated analysts or are excited about the challenge of addressing the continually evolving issues that face State government, apply to join our team!</p>
 </section>
 
 {{ iconframe({
@@ -131,19 +130,19 @@ State’s multi-year financial plan."
 
 
 {{ quicklinks({ 
-    frametitle:"Quick Links",
+    frametitle:"Learn More",
     colleft: [
         {
             title:"Salaries and Benefits",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/Business_Masks2.jpg"
+            image:"/img/benefits-card.jpg"
         },
         {
             title:"Life in the Capital Region",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/Business_Masks2.jpg"
+            image:"/img/life-card.jpg"
         }
     ],
     colright: [
@@ -151,13 +150,13 @@ State’s multi-year financial plan."
             title:"Career Paths",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/Business_Masks2.jpg"
+            image:"/img/career-card.jpg"
         },
         {
             title:"Learning and Leadership Development",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/Business_Masks2.jpg"
+            image:"/img/learn-card.jpg"
         }
     ]
 })}}
