@@ -122,7 +122,7 @@ State’s multi-year financial plan."
 
 {{ bio({
     title:"What is it like to work for DOB?",
-    content:'"There are many intelligent Examiners here, but none will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill … there’s really a role for everybody. "',
+    content:'"There are many intelligent Examiners here, but no one will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill … there’s really a role for everybody. "',
     attribute:"Jacob, Budget Examiner",
     image:"/img/bio-image.jpg",
     imagealt:"professional headshot of male employee wearing a suit"
