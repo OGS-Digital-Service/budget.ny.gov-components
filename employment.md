@@ -38,7 +38,7 @@ twitter:
 <section class="nysds-textarea my-14 w-11/12 max-w-7xl flex flex-col justify-center m-auto">
 <!-- frame heading -->
 <h2 class="nysds-text-36 font-extrabold text-center mb-4 w-full text-black">Who We Are</h2>
-<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our staff work on the forefront of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers. If you are looking for a place to start your career in government finance or public policy, are interested in collaborating and learning from talented and dedicated analysts or are excited about the challenge of addressing the continually evolving issues that face State government, apply to join our team!</p>
+<p>The New York State Division of the Budget (DOB) is the primary fiscal advisor to the Governor, developing, negotiating and implementing one of the largest government budgets in the nation. Our staff work on the forefront of emerging issues and challenges, developing and managing the “nuts & bolts” of the services and policies that impact the daily lives of New Yorkers. If you are looking for a place to start your career in government finance or public policy, are interested learning from talented and dedicated analysts, or are excited about addressing the challenges that face State government, apply to join our team!</p>
 </section>
 
 {{ iconframe({
@@ -86,7 +86,7 @@ State’s multi-year financial plan."
     cards: [
         {
            title:"Current Openings",
-           content:"DOB employs budget and policy analysts, auditors, economists, contract specialists, human resources and administrative professionals, student interns, and more.",
+           content:"DOB employs budget and policy analysts, economists, contract specialists, data analysts, student interns, and more.",
            link:"https://budget.ny.gov",
            arialabel:"",
            image:"/img/Meeting.jpg",
@@ -122,7 +122,7 @@ State’s multi-year financial plan."
 
 {{ bio({
     title:"What is it like to work for DOB?",
-    content:'"There are many intelligent Examiners here, but no will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill… there’s really a role for everybody. "',
+    content:'"There are many intelligent Examiners here, but none will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill … there’s really a role for everybody. "',
     attribute:"Jacob, Budget Examiner",
     image:"/img/bio-image.jpg",
     imagealt:"professional headshot of male employee wearing a suit"
