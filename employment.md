@@ -47,27 +47,27 @@ twitter:
     description:"Our work impacts all areas of public policy and provides opportunities for employees to develop in-depth policy knowledge and make meaningful contributions as they engage in:",
     iconcards: [
         {
-            icon:"nygov-logo.png",
-            iconalt:"an outline of the state of new york",
+            icon:"skilled-policy.png",
+            iconalt:"icon of paper and magnifying glass",
             title: "Skilled Policy and Program Analysis",
             content:"Analyzing government programs, operations, and legislative proposals for fiscal implications."
         },
         {
-            icon:"nygov-logo.png",
-            iconalt:"an outline of the state of new york",
+            icon:"complex.png",
+            iconalt:"icon of idea light bulb",
             title: "Complex Budget Coordination",
             content:"Creating, proposing and negotiating budget and policy, while managing the
 State’s multi-year financial plan."
         },
         {
-            icon:"nygov-logo.png",
-            iconalt:"an outline of the state of new york",
+            icon:"forecast.png",
+            iconalt:"icon of a bar and line chart",
             title: "Revenue and Economic Forecasting",
             content:"Interpreting fiscal trends and impacts to promote long-term financial stability."
         },
         {
-            icon:"nygov-logo.png",
-            iconalt:"an outline of the state of new york",
+            icon:"management.png",
+            iconalt:"icon of people with a star banner",
             title: "High Performance Government Management",
             content:"Providing enterprise guidance, overseeing government performance, and managing initiatives.  "
         }
