@@ -119,13 +119,7 @@ State’s multi-year financial plan."
 </section>
 
 
-{{ bio({
-    title:"What is it like to work for DOB?",
-    content:'"There are many intelligent Examiners here, but no one will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill … there’s really a role for everybody. "',
-    attribute:"Jacob, Budget Examiner",
-    image:"/img/bio-image.jpg",
-    imagealt:"professional headshot of male employee wearing a suit"
-})}}
+
 
 
 {{ quicklinks({ 
@@ -158,4 +152,24 @@ State’s multi-year financial plan."
             image:"/img/learn-card.jpg"
         }
     ]
+})}}
+
+
+{{ bio({
+    direction: "left",
+    frametitle:"What is it like to work for DOB?",
+    title:"Still Need some text here",
+    content:'"I think DOB is unique because it checks a lot of different boxes- you’re doing day-to-day transactions, you’re involved with negotiating with the Legislature, working with people at higher levels. You get such a good balance that the job really stays interesting"',
+    attribute:"Sara, Team Leader",
+    image:"/img/sara-web.jpg",
+    imagealt:"professional headshot of female employee wearing a suit"
+})}}
+
+{{ bio({
+    direction: "right",
+    title:"Still need some text here",
+    content:'"There are many intelligent Examiners here, but no one will do the job just like you. Your unique and diverse input matters. Every possible policy area you can think of, every possible skill … there’s really a role for everybody. "',
+    attribute:"Jacob, Budget Examiner",
+    image:"/img/jacob.jpg",
+    imagealt:"professional headshot of male employee wearing a suit"
 })}}
