@@ -129,13 +129,15 @@ State’s multi-year financial plan."
             title:"Salaries and Benefits",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/benefits-card.jpg"
+            image:"/img/benefits-card.jpg",
+            imagealt:"sign that reads employee benefits"
         },
         {
             title:"Life in the Capital Region",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/life-card.jpg"
+            image:"/img/life-card.jpg",
+            imagealt:"people eating at a restaurant"
         }
     ],
     colright: [
@@ -143,13 +145,15 @@ State’s multi-year financial plan."
             title:"Career Paths",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/career-card.jpg"
+            image:"/img/career-card.jpg",
+            imagealt:"compass with text career"
         },
         {
             title:"Learning and Leadership Development",
             link:"https://budget.ny.gov",
             content:"",
-            image:"/img/learn-card.jpg"
+            image:"/img/learn-card.jpg",
+            imagealt:"people talking in a meeting"
         }
     ]
 })}}
