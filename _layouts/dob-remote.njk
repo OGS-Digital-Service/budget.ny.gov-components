@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://{{url}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{facebook.title}}">
+    <meta property="og:description" content="{{facebook.description}}">
+    <meta property="og:image" content="https://{{domain}}/img/{{facebook.image}}">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://{{url}}">
+    <meta name="twitter:title" content="{{twitter.title}}">
+    <meta name="twitter:description" content="{{twitter.description}}">
+    <meta name="twitter:image" content="https://{{domain}}/img/{{twitter.image}}">
+    <!-- these are highest level css overrides for this site only -->
+    <style>
+    .search {
+      max-height: unset !important;
+    }
+    html {
+      background-color: #fff !important;
+    }
+    </style>
+    {# {% include '_css-link.njk' %}
+    {% include '_js-link.njk' %} #}
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/OGS-Digital-Service/nysds-design-system@fontawesome-ttf/fonts/fontawesome/fa-brands-400.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/OGS-Digital-Service/nysds-design-system@fontawesome-ttf/fonts/fontawesome/fa-solid-900.ttf" as="font" type="font/ttf" crossorigin>
+    <link href="https://cdn.jsdelivr.net/gh/OGS-Digital-Service/nysds-design-system@budget.ny.gov-june/css/nysds%20full/nysds-full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/gh/OGS-Digital-Service/nysds-design-system@fontawesome-ttf/css/nysds%20full/fontawesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/nys-global-nav-horizontal.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/administration-horizontal.min.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/dob-rwd-horizontal.min.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+    <title>{{ title }}</title>
+  </head>
+  <body class="">
+  <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only text-blue-700 underline">Skip to Main Content</a>
+    {% from '../_includes/_components.njk' import unav,nav,footer  %}
+     {% include 'nav-data.md' %}
+    <main class="nysds-normalize mx-8 md:mx-20" id="main-site-content-for-skiplink">
+    <div class="-mx-8 md:-mx-20">
+      <div id="search_container">
+        <form
+            method="get"
+            action="/search?q=&amp;btnG.x=65&amp;btnG.y=16&amp;btnG=Search+DOB&amp;site=allsites&amp;client=allsites&amp;proxystylesheet=allsites&amp;output=xml_no_dtd"
+            class="search"
+            title="DOB Site Search"
+            role="search"
+            aria-label="Sitewide search"
+        >
+            <label for="searchDOB">Search DOB</label>
+            <span class="searchInput">
+                <input type="text" name="q" size="16" maxlength="255" value="" id="searchDOB" title="Input text here and hit &ldquo;Return&rdquo;" tabindex="0" accesskey="S" placeholder="Search DOB" />
+                <input name="btnG" type="submit" title="Submit DOB Search" tabindex="0" class="search_button" />
+            </span>
+            <input type="hidden" name="site" value="allsites" title="hidden site" tabindex="0" />
+            <input type="hidden" name="client" value="allsites" title="hidden client" tabindex="0" />
+            <input type="hidden" name="proxystylesheet" value="allsites" title="hidden proxy stylesheet" tabindex="0" />
+            <input type="hidden" name="output" value="xml_no_dtd" title="hidden output" tabindex="0" />
+            <input type="hidden" name="oe" value="latin1" title="hidden oe" tabindex="0" />
+        </form>
+      </div>
+    </div>
+    
+    {{ content | safe }}
+   
+    </main>
+    {% include 'footer-data.md' %}
+  </body>
+</html>
